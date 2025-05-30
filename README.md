@@ -188,9 +188,9 @@ Ensure the following software is installed on the machine where you intend to ru
 2.  **Edit `.env` File:** Open the `.env` file and carefully populate it. **Use the dedicated app user/password (e.g., `donnelly`) if you created one.**
     ```env
     # === EDIT THESE VALUES CAREFULLY ===
-    DB_USER=donnelly                      # The user the Node.js app connects as
-    DB_PASSWORD=donN1234#                 # The password for DB_USER (NO QUOTES!)
-    DB_DATABASE=wine_quality              # The database created in Step 5.4
+    DB_USER=USERNAME                     # The user the Node.js app connects as
+    DB_PASSWORD=your_password                 # The password for DB_USER (NO QUOTES!)
+    DB_DATABASE=DB_NAME              # The database created in Step 5.4
     DB_HOST=localhost                     # Connect via the tunnel
     DB_PORT=5433                          # The LOCAL port used in the tunnel command
 
